@@ -4,7 +4,13 @@ import React from 'react';
 function App() {
   return (
     <div>
-      Phone Directory
+      <div class="header">
+        Phone Directory
+      </div>
+      <div>
+        <span>Name</span><br />
+        <span>Phone</span>
+      </div>
     </div>
   );
 }
